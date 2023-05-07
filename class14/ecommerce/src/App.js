@@ -6,7 +6,7 @@ import Header from './components/Header';
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from './components/themeContext';
-
+import Contact from './components/Contact';
 
 const router = createBrowserRouter([{
   path:'/',
@@ -17,6 +17,10 @@ const router = createBrowserRouter([{
 },{
   path: '/cart',
   element:<><Header /><Cart /></>
+},{
+  path: '/contact',
+  element:<><Header /><Contact /></>
+
 }]);
 
 function App() {

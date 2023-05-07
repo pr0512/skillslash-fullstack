@@ -37,7 +37,7 @@
   width: 150px;
   height: auto;
   padding: 5px;
-  border: 1 px solid #ccc;
+  border: 10 px solid #ccc;
 }
 
 .product-wrapper{
@@ -80,4 +80,32 @@ padding: 10px 15px;
   background-color: black;
   color: white;
  }
- 
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
+}
+.contact-field{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact-field label{
+  width: 200px;
+}
+.contact-field input, .contact-field textarea{
+  width: 100%;
+}
+
+.contact-field input{
+  height: 40px;
+}
+.contact-field textarea{
+  height: 80px;
+}
+.contact-form button{
+  width: 120px;
+  margin-top: 10px;
+  flex-direction: row-reverse;
+}
